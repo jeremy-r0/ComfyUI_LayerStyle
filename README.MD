@@ -1960,7 +1960,7 @@ Remove background. compared to the similar background removal nodes, this node h
 
 This node combines the Alpha Matte node of Spacepxl's [ComfyUI-Image-Filters](https://github.com/spacepxl/ComfyUI-Image-Filters) and the functionality of ZHO-ZHO-ZHO's [ComfyUI-BRIA_AI-RMBG](https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG), thanks to the original author.
 
-*Download model files from [BRIA Background Removal v1.4](https://huggingface.co/briaai/RMBG-1.4) or [BaiduNetdisk](https://pan.baidu.com/s/16PMfjpkXn_35T-cVYEPTZA?pwd=qi6o) to ```ComfyUI/models/rmbg/RMBG-1.4``` folder. This model can be used for non-commercial purposes.    
+*Download model files from [BRIA Background Removal v1.4](https://huggingface.co/briaai/RMBG-1.4) or [BaiduNetdisk](https://pan.baidu.com/s/16PMfjpkXn_35T-cVYEPTZA?pwd=qi6o) to ```ComfyUI/models/rmbg/RMBG-1.4``` folder. The folder name is case-insensitive, so ```RMBG```, ```rmbg``` or ```RmBg``` all work. This model can be used for non-commercial purposes.    
 
 ![image](image/rembg_ultra_example.jpg)    
 

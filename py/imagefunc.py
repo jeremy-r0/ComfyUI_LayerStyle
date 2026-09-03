@@ -1494,7 +1494,11 @@ def load_RMBG_model():
     except:
         pass
     if not os.path.exists(model_path):
-        model_path = os.path.join(folder_paths.models_dir, "rmbg", "RMBG-1.4", "model.pth")
+        for d in os.listdir(folder_paths.models_dir):
+            if d.lower() == "rmbg":
+                model_path = os.path.join(folder_paths.models_dir, d, "RMBG-1.4", "model.pth")
+                if os.path.exists(model_path):
+                    break
     if not os.path.exists(model_path):
         model_path = os.path.join(os.path.dirname(current_directory), "RMBG-1.4", "model.pth")
     net.load_state_dict(torch.load(model_path, map_location=device, weights_only=True))

@@ -1,5 +1,9 @@
 # ComfyUI Layer Style
 
+## Info
+This is a fork of [ComfyUI_LayerStyle](https://github.com/chflame163/ComfyUI_LayerStyle) by chflame163. All credits go to him.
+This fork allow the custom nodes to fetch a different path for rmbg 1.4, regardless of casing.
+
 ## Important note
 Split some nodes of the dependencies that are prone to problems into [ComfyUI_LayerStyle_Advance](https://github.com/chflame163/ComfyUI_LayerStyle_Advance) repository. Including:     
 LayerMask: BiRefNetUltra, LayerMask: BiRefNetUltraV2, LayerMask: LoadBiRefNetModel, LayerMask: LoadBiRefNetModelV2,    
@@ -24,13 +28,6 @@ Open the terminal in the plugin directory and use the following command to roll 
 git reset --hard 3d4a3526a9d1a19671a133e9215077bda520ee5d
 ```
 
-
-[中文说明点这里](./README_CN.MD)    
-
-商务合作请联系email [chflame@163.com](mailto:chflame@163.com).
-
-For business cooperation, please contact email [chflame@163.com](mailto:chflame@163.com).
-
 A set of nodes for ComfyUI that can composite layer and mask to achieve Photoshop like functionality.  
 
 It migrate some basic functions of PhotoShop to ComfyUI, aiming to centralize the workflow and reduce the frequency of software switching.  
@@ -53,7 +50,7 @@ Some JSON workflow files in the    ```workflow``` directory, That's examples of 
 * Or open the cmd window in the plugin directory of ComfyUI, like ```ComfyUI\custom_nodes```，type    
   
   ```
-  git clone https://github.com/chflame163/ComfyUI_LayerStyle.git
+  git clone https://github.com/jeremy-r0/ComfyUI_LayerStyle.git
   ```
 
 * Or download the zip file and extracted, copy the resulting folder to ```ComfyUI\custom_nodes```    
